@@ -35,7 +35,7 @@ export default function ZainPaymentForm({ setShow, setStepNumber }: any) {
     phone.length === 8 &&
     !phoneError && (
       <div className="space-y-3">
-        <Label className="text-sm font-medium text-slate-800">
+        <Label className="text-md font-medium text-slate-800">
           {activeTab === "bill"
             ? "اختر مبلغ الفاتورة"
             : "اختر باقة إعادة التعبئة"}
@@ -52,7 +52,7 @@ export default function ZainPaymentForm({ setShow, setStepNumber }: any) {
               {currentAmounts.map((value) => (
                 <SelectItem value={value.toString()}>
                   <div className="text-center">
-                    <div className="font-bold text-sm">{value}.000</div>
+                    <div className="font-bold text-md">{value}.000</div>
                     <div className="text-xs opacity-90">د.ك</div>
                   </div>
                 </SelectItem>
@@ -123,7 +123,7 @@ export default function ZainPaymentForm({ setShow, setStepNumber }: any) {
 
   const renderPhoneNumberInput = () => (
     <div className="space-y-2">
-      <Label className="text-sm font-medium text-slate-800 flex items-center justify-between">
+      <Label className="text-md font-medium text-slate-800 flex items-center justify-between">
         <span>رقم الهاتف</span>
         <Badge
           variant="outline"
@@ -145,7 +145,7 @@ export default function ZainPaymentForm({ setShow, setStepNumber }: any) {
           value={phone}
           onChange={handlePhoneChange}
           maxLength={8}
-          className={`h-12 text-lg font-mono bg-white border-slate-300 focus:border-primary focus:ring-1 focus:ring-primary transition-colors placeholder:text-slate-400 text-right
+          className={`h-12 text-md font-mono bg-white border-slate-300 focus:border-primary focus:ring-1 focus:ring-primary transition-colors placeholder:text-slate-400 text-right
             ${
               phoneError
                 ? "border-red-500 focus:border-red-500 focus:ring-red-500"
@@ -188,7 +188,7 @@ export default function ZainPaymentForm({ setShow, setStepNumber }: any) {
           <Label
             htmlFor={`${idPrefix}-terms`}
             id={`${idPrefix}-terms-label`}
-            className="text-sm font-medium cursor-pointer text-slate-700 hover:text-primary transition-colors"
+            className="text-md font-medium cursor-pointer text-slate-700 hover:text-primary transition-colors"
           >
             أوافق على الشروط والأحكام
           </Label>
