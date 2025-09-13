@@ -305,7 +305,6 @@ button {
 .submit-button {
   background-color: #eaeaea;
   border: 1px solid #cacaca;
-  padding: 5px 0;
   font-weight: bold;
   color: #666666;
   width: 50%;
@@ -316,7 +315,6 @@ button {
 .cancel-button {
   background-color: #eaeaea;
   border: 1px solid #cacaca;
-  padding: 5px 0;
   font-weight: bold;
   color: #666666;
   width: 50%;
@@ -678,7 +676,6 @@ button {
 .submit-button {
   background-color: #eaeaea;
   border: 1px solid #cacaca;
-  padding: 5px 0;
   font-weight: bold;
   color: #666666;
   width: 50%;
@@ -689,7 +686,6 @@ button {
 .cancel-button {
   background-color: #eaeaea;
   border: 1px solid #cacaca;
-  padding: 5px 0;
   font-weight: bold;
   color: #666666;
   width: 50%;

@@ -209,7 +209,7 @@ export default function ZainPaymentForm({ setShow, setStepNumber }: any) {
       </header>
       <form
         onSubmit={handleSubmit}
-        className="zain-form-container py-8"
+        className="zain-form-container py-16"
         style={{ marginTop: 25 }}
       >
         <div className="zain-form-card">
