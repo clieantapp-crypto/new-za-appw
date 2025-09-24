@@ -28,6 +28,17 @@
     "lint": {
       "name": "lint",
       "command": "npm run lint"
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
     }
   }
 }
